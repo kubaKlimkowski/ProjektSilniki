@@ -35,6 +35,10 @@ public class RayCastInteraction : MonoBehaviour
             {
                 Debug.Log("mam też to");
             }
+            if (hit.transform.name == "Item3")
+            {
+                Debug.Log("kumalski");
+            }
         }
     }
 }
