@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class RayCastInteraction : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public List<GameObject> Itemy;
+    public GameObject[] eqslots = new GameObject[6];
     void Start()
     {
         
@@ -13,6 +14,11 @@ public class RayCastInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        for (int i = 0; i< Itemy.Count; i++)
+        {
+            Itemy[i].transform.position = eqslots[i].transform.position;
+            Itemy[i].transform.parent = eqslots[i].transform.GetChild(0);
+        }
         if (Input.GetMouseButtonDown(0))
         {
             CastRay();
@@ -21,23 +27,15 @@ public class RayCastInteraction : MonoBehaviour
 
     void CastRay()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
-
-        if (hit)
+        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        // RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(Input.mousePosition, Vector3.down);
+        foreach(RaycastHit2D hit in hits)
         {
-            if(hit.transform.name == "Item")
+            if (hit.collider.gameObject.name.Contains("Item"))
             {
-                Debug.Log("mam to");
-            }
-
-            if(hit.transform.name == "Item2")
-            {
-                Debug.Log("mam też to");
-            }
-            if (hit.transform.name == "Item3")
-            {
-                Debug.Log("kumalski");
+                Itemy.Add(hit.transform.gameObject);
+                break;
             }
         }
     }
