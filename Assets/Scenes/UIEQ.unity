@@ -438,6 +438,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: RayCastHolder
       objectReference: {fileID: 0}
+    - target: {fileID: 6676758799066777898, guid: 9038a7b5157e32e41866dafbc5ffe3ea,
+        type: 3}
+      propertyPath: eqslots.Array.data[0]
+      value: 
+      objectReference: {fileID: 414411678}
+    - target: {fileID: 6676758799066777898, guid: 9038a7b5157e32e41866dafbc5ffe3ea,
+        type: 3}
+      propertyPath: eqslots.Array.data[1]
+      value: 
+      objectReference: {fileID: 473024409}
+    - target: {fileID: 6676758799066777898, guid: 9038a7b5157e32e41866dafbc5ffe3ea,
+        type: 3}
+      propertyPath: eqslots.Array.data[2]
+      value: 
+      objectReference: {fileID: 56322370}
+    - target: {fileID: 6676758799066777898, guid: 9038a7b5157e32e41866dafbc5ffe3ea,
+        type: 3}
+      propertyPath: eqslots.Array.data[3]
+      value: 
+      objectReference: {fileID: 1299942272}
+    - target: {fileID: 6676758799066777898, guid: 9038a7b5157e32e41866dafbc5ffe3ea,
+        type: 3}
+      propertyPath: eqslots.Array.data[4]
+      value: 
+      objectReference: {fileID: 674896402}
+    - target: {fileID: 6676758799066777898, guid: 9038a7b5157e32e41866dafbc5ffe3ea,
+        type: 3}
+      propertyPath: eqslots.Array.data[5]
+      value: 
+      objectReference: {fileID: 165961924}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9038a7b5157e32e41866dafbc5ffe3ea, type: 3}
 --- !u!1001 &3832308969894572648
