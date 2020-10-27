@@ -27,8 +27,7 @@ public class RayCastInteraction : MonoBehaviour
 
     void CastRay()
     {
-        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        // RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+        
         RaycastHit2D[] hits = Physics2D.RaycastAll(Input.mousePosition, Vector3.down);
         foreach(RaycastHit2D hit in hits)
         {
