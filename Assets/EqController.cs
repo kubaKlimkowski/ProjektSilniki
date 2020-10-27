@@ -21,4 +21,18 @@ public class EqController : MonoBehaviour {
         slots[firstFree].isTaken = true;
         firstFree++;
     }
+
+    public void Animate(GameObject go) {
+        StartCoroutine(Animation(go, slots[firstFree].transform.position));
+        firstFree++;
+    }
+
+    IEnumerator Animation(GameObject go, Vector3 target) {
+        float k = 0;
+        while(k <= 1) {
+            go.transform.position = Vector3.Lerp(go.transform.position, target, k);
+            yield return new WaitForSeconds(0.03f);
+            k += 0.01f;
+        }
+    }
 }

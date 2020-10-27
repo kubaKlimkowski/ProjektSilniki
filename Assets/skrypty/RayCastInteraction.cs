@@ -26,7 +26,8 @@ public class RayCastInteraction : MonoBehaviour {
         foreach(RaycastHit2D hit in hits) {
             if(hit.collider.gameObject.name.Contains("Item")) {
                 //Itemy.Add(hit.transform.gameObject);
-                EqController.Instance.PutInEq(hit.collider.gameObject);
+                //EqController.Instance.PutInEq(hit.collider.gameObject);
+                EqController.Instance.Animate(hit.collider.gameObject);
                 break;
             }
         }
