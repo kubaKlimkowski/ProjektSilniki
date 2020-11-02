@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UIEQ.unity
+    guid: d76c960249e830b4d8f9028768a606e9
+  - enabled: 1
+    path: Assets/Scenes/kaczka.unity
+    guid: c6918b3eccf98814eb2c3bad3869b347
   m_configObjects: {}

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7182759919882842778}
   - component: {fileID: 1910892462761408756}
   - component: {fileID: 2284017475664680900}
-  - component: {fileID: 7952352459465126039}
   m_Layer: 5
   m_Name: EQ slot
   m_TagString: Untagged
@@ -76,19 +75,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7952352459465126039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2489481078745541706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cc9836fda87df744bb2d53757982b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isTaken: 0
 --- !u!1 &4984097361142012077
 GameObject:
   m_ObjectHideFlags: 0
