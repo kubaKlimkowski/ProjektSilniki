@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
-{
+public class Test : MonoBehaviour {
 
-
-    void Start()
-    {
+    public void DisplayDebug(string s) {
+        Debug.Log(s);
     }
-    
+
 }
