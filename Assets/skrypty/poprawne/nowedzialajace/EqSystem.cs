@@ -10,13 +10,12 @@ public class EqSystem : MonoBehaviour
 
     private void Awake()
     {
-        instance = this; //make it real singleton later
+        instance = this; 
         freeslots.AddRange(slots);
     }
 
     public void pickUpObject(GameObject pickObject)
     {
-        Debug.Log("dupa");
         if (freeslots.Count > 0)
         {
             pickObject.transform.SetParent(freeslots[0].transform);
