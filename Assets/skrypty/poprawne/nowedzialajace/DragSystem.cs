@@ -2,7 +2,7 @@
 
 
 
-public class DragSystem : MonoBehaviour {
+public class DragSystem : MonoBehaviour  {
     public static DragSystem Instance { get; private set; }
     GameObject currentDragObject;
     GameObject currentDragParent;
@@ -12,6 +12,7 @@ public class DragSystem : MonoBehaviour {
         Instance = this;
     }
 
+  
     public void StartDrag(GameObject pickedObject) {
         RaycastHit2D[] hitObject = Physics2D.RaycastAll(Input.mousePosition, Vector3.forward);
         Debug.DrawRay(Input.mousePosition, Vector3.forward, Color.green, 60);
@@ -36,7 +37,7 @@ public class DragSystem : MonoBehaviour {
     }
 
     public void DragObject() {
-        currentDragObject.transform.position = Input.mousePosition;
+       currentDragObject.transform.position = Input.mousePosition;
     }
 
     public void StopDrag() {
@@ -48,17 +49,13 @@ public class DragSystem : MonoBehaviour {
 
                 if(hitObject[i].collider.gameObject.GetComponent<RequireObjectType>() != null) {
                     if(hitObject[i].collider.gameObject.GetComponent<RequireObjectType>().requireObjectType == currentDragObject.GetComponent<RequireSlotType>().requireSlotType) {
-                        currentDragObject.transform.SetParent(hitObject[i].collider.gameObject.transform);
-                        currentDragObject.transform.position = hitObject[i].collider.gameObject.transform.position;
-                        EqSystem.instance.SetSlotOccupied(hitObject[i].collider.gameObject);
+                        ModifyObject(hitObject[i]);
                     } else {
                         currentDragObject.transform.SetParent(currentDragParent.transform);
                         EqSystem.instance.SetSlotOccupied(hitObject[i].collider.gameObject);
                     }
                 } else {
-                    currentDragObject.transform.SetParent(hitObject[i].collider.gameObject.transform);
-                    currentDragObject.transform.position = hitObject[i].collider.gameObject.transform.position;
-                    EqSystem.instance.SetSlotOccupied(hitObject[i].collider.gameObject);
+                    ModifyObject(hitObject[i]);
                 }
             }
         } else {
@@ -69,6 +66,13 @@ public class DragSystem : MonoBehaviour {
         currentDragParent = null;
 
         EqSystem.instance.SetSlotFree(hitObject[0].collider.gameObject);
+    }
+
+    void ModifyObject(RaycastHit2D hitObject)
+    {
+        currentDragObject.transform.SetParent(hitObject.collider.gameObject.transform);
+        currentDragObject.transform.position = hitObject.collider.gameObject.transform.position;
+        EqSystem.instance.SetSlotOccupied(hitObject.collider.gameObject);
     }
 
     bool isOutOfEq(RaycastHit2D[] hitObject) {

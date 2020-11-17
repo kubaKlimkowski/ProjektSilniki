@@ -3,16 +3,27 @@ using UnityEngine;
 
 public class EqSystem : MonoBehaviour {
     public static EqSystem instance;
-    public GameObject eqParent;
-    public EqSlot[] slots;
+    
+    public EqSlot[] slots = new EqSlot[6];
     List<GameObject> freeslots = new List<GameObject>();
 
     private void Awake() {
-        slots = eqParent.GetComponentsInChildren<EqSlot>();
+        slots = GetComponentsInChildren<EqSlot>();
         instance = this;
-        freeslots.AddRange(slots);
+       
     }
+    private void Start()
+    {
+        for(int i = 0; i< transform.childCount; i++)
+        {
+            slots[i] = transform.GetChild(i).gameObject.GetComponent<EqSlot>();
+        }
 
+        for (int i = 0; i < slots.Length; i++)
+        {
+            freeslots[i] = slots[i].gameObject; 
+        }
+    }
     public void pickUpObject(GameObject pickObject) {
         if(freeslots.Count > 0) {
             pickObject.transform.SetParent(freeslots[0].transform);
@@ -27,11 +38,11 @@ public class EqSystem : MonoBehaviour {
             if(freedObject == a.heldObject)
                 a.Free();
         }
-        //if(slots.Contains(freedObject) && !freeslots.Contains(freedObject)) { freeslots.Add(freedObject); }
+      if(slots.Contains(freedObject) && !freeslots.Contains(freedObject)) { freeslots.Add(freedObject); }
     }
 
     public void SetSlotOccupied(GameObject slot) {
-        if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
+       if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
     }
     /*
      *  Zwalnianie slotów poprzez informację o tym, który obiekt został zabrany 
