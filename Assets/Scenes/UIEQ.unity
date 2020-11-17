@@ -121,9 +121,9 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &2307309 stripped
+--- !u!1 &54047174 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3503849025230809328, guid: 3bed644be9cd729458f146c75bf252dd,
+  m_CorrespondingSourceObject: {fileID: 3832308970670363686, guid: 3bed644be9cd729458f146c75bf252dd,
     type: 3}
   m_PrefabInstance: {fileID: 3832308969894572648}
   m_PrefabAsset: {fileID: 0}
@@ -241,21 +241,9 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 3832308969894572648}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &662530661 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1726672134534208081, guid: 3bed644be9cd729458f146c75bf252dd,
-    type: 3}
-  m_PrefabInstance: {fileID: 3832308969894572648}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1079978841 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1285036997463187478, guid: 3bed644be9cd729458f146c75bf252dd,
-    type: 3}
-  m_PrefabInstance: {fileID: 3832308969894572648}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1095575059 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1703329800424622585, guid: 3bed644be9cd729458f146c75bf252dd,
     type: 3}
   m_PrefabInstance: {fileID: 3832308969894572648}
   m_PrefabAsset: {fileID: 0}
@@ -271,18 +259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2380bfd8525d6418c5a56ec28c715c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1420445803 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1703329800179245060, guid: 3bed644be9cd729458f146c75bf252dd,
-    type: 3}
-  m_PrefabInstance: {fileID: 3832308969894572648}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1592199898 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1703329799432547860, guid: 3bed644be9cd729458f146c75bf252dd,
-    type: 3}
-  m_PrefabInstance: {fileID: 3832308969894572648}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1752722505
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,27 +791,32 @@ PrefabInstance:
         type: 3}
       propertyPath: slots.Array.data[0]
       value: 
-      objectReference: {fileID: 2307309}
+      objectReference: {fileID: 0}
     - target: {fileID: 5173627339791366677, guid: 3bed644be9cd729458f146c75bf252dd,
         type: 3}
       propertyPath: slots.Array.data[1]
       value: 
-      objectReference: {fileID: 1420445803}
+      objectReference: {fileID: 0}
     - target: {fileID: 5173627339791366677, guid: 3bed644be9cd729458f146c75bf252dd,
         type: 3}
       propertyPath: slots.Array.data[2]
       value: 
-      objectReference: {fileID: 1592199898}
+      objectReference: {fileID: 0}
     - target: {fileID: 5173627339791366677, guid: 3bed644be9cd729458f146c75bf252dd,
         type: 3}
       propertyPath: slots.Array.data[4]
       value: 
-      objectReference: {fileID: 662530661}
+      objectReference: {fileID: 0}
     - target: {fileID: 5173627339791366677, guid: 3bed644be9cd729458f146c75bf252dd,
         type: 3}
       propertyPath: slots.Array.data[5]
       value: 
-      objectReference: {fileID: 1095575059}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173627339791366677, guid: 3bed644be9cd729458f146c75bf252dd,
+        type: 3}
+      propertyPath: eqParent
+      value: 
+      objectReference: {fileID: 54047174}
     - target: {fileID: 6050605079680096833, guid: 3bed644be9cd729458f146c75bf252dd,
         type: 3}
       propertyPath: m_Size.x

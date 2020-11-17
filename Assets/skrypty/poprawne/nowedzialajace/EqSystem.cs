@@ -10,7 +10,7 @@ public class EqSystem : MonoBehaviour {
     private void Awake() {
         slots = eqParent.GetComponentsInChildren<EqSlot>();
         instance = this;
-        freeslots.AddRange(slots);
+        //freeslots.AddRange(slots);
     }
 
     public void pickUpObject(GameObject pickObject) {
@@ -23,20 +23,20 @@ public class EqSystem : MonoBehaviour {
     }
 
     public void SetSlotFree(GameObject freedObject) {
-        foreach(EqSlot a in slots) {
-            if(freedObject == a.heldObject)
-                a.Free();
+        //foreach(EqSlot a in slots) {
+            //if(freedObject == a.heldObject)
+                //a.Free();
         }
         //if(slots.Contains(freedObject) && !freeslots.Contains(freedObject)) { freeslots.Add(freedObject); }
-    }
-
+   
     public void SetSlotOccupied(GameObject slot) {
-        if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
+        //if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
+    }
     }
     /*
      *  Zwalnianie slotów poprzez informację o tym, który obiekt został zabrany 
      * 
      * 
      */
-}
+
 
