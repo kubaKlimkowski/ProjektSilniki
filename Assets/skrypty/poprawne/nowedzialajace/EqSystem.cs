@@ -38,11 +38,11 @@ public class EqSystem : MonoBehaviour {
             if(freedObject == a.heldObject)
                 a.Free();
         }
-      if(slots.Contains(freedObject) && !freeslots.Contains(freedObject)) { freeslots.Add(freedObject); }
+     // if(slots.Contains(freedObject) && !freeslots.Contains(freedObject)) { freeslots.Add(freedObject); }
     }
 
     public void SetSlotOccupied(GameObject slot) {
-       if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
+       //if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
     }
     /*
      *  Zwalnianie slotów poprzez informację o tym, który obiekt został zabrany 
