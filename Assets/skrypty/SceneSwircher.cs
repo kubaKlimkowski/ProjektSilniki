@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwircher : MonoBehaviour
 {
-   
     public void Switch()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -14,4 +13,6 @@ public class SceneSwircher : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+
 }
+
