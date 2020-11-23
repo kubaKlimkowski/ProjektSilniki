@@ -2,47 +2,45 @@
 using UnityEngine;
 
 public class EqSystem : MonoBehaviour {
-    public static EqSystem instance;
-    
-    public EqSlot[] slots = new EqSlot[6];
-    List<GameObject> freeslots = new List<GameObject>();
+    public static EqSystem instance { get; private set; }
+
+    EqSlot[] slots;
+
 
     private void Awake() {
-        slots = GetComponentsInChildren<EqSlot>();
+        slots = GetComponentsInChildren<EqSlot>(); //Funkcja tworzy tablicę więc nie potrzbne jest jej osobne definiowanie
         instance = this;
-       
-    }
-    private void Start()
-    {
-        for(int i = 0; i< transform.childCount; i++)
-        {
-            slots[i] = transform.GetChild(i).gameObject.GetComponent<EqSlot>();
-        }
 
-        for (int i = 0; i < slots.Length; i++)
-        {
-            freeslots[i] = slots[i].gameObject; 
-        }
     }
-    public void pickUpObject(GameObject pickObject) {
-        if(freeslots.Count > 0) {
-            pickObject.transform.SetParent(freeslots[0].transform);
-            freeslots.RemoveAt(0);
-            Destroy(pickObject.transform.GetChild(0).gameObject);
-            pickObject.GetComponent<DragableObject>().SetFree();
-        }
+    private void Start() {
+        //argument out of range exception pojawia się w momencie, gdy próbują się Państwo odwołać do elementu nie występującego w kolekcji (np. element 6 w 5cio elementowej tablicy)
+
     }
 
-    public void SetSlotFree(GameObject freedObject) {
+    public void PickUpObject(EqItem item) {
         foreach(EqSlot a in slots) {
-            if(freedObject == a.heldObject)
+            if(a.isTaken)
+                continue;
+
+            a.Take(item.gameObject);
+            return;
+            //Destroy(pickObject.transform.GetChild(0).gameObject); //brzydkie
+            //pickObject.GetComponent<DragableObject>().SetFree();  //brzydkie
+
+        }
+
+    }
+
+    public void SetSlotFree(EqItem item) {
+        foreach(EqSlot a in slots) {
+            if(item.gameObject == a.heldObject)
                 a.Free();
         }
-     // if(slots.Contains(freedObject) && !freeslots.Contains(freedObject)) { freeslots.Add(freedObject); }
+
     }
 
     public void SetSlotOccupied(GameObject slot) {
-       //if(slots.Contains(slot) && freeslots.Contains(slot)) { freeslots.Remove(slot); }
+
     }
     /*
      *  Zwalnianie slotów poprzez informację o tym, który obiekt został zabrany 

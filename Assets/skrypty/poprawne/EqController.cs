@@ -17,9 +17,9 @@ public class EqController : MonoBehaviour {
 
 
     public void PutInEq(GameObject go) {
-        go.transform.position = slots[firstFree].transform.position;
-        slots[firstFree].isTaken = true;
-        firstFree++;
+        //go.transform.position = slots[firstFree].transform.position;
+        //slots[firstFree].isTaken = true;
+        //firstFree++;
     }
 
     public void Animate(GameObject go) {
