@@ -1,30 +1,51 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class DragableObject : MonoBehaviour
-{
-    float time;
 
-    public void OnPress()
-    {
-        time = -1;
+[RequireComponent(typeof(EventTrigger))]
+public class DragableObject : MonoBehaviour {
+
+    private void Start() {
+        EventTrigger triggers = GetComponent<EventTrigger>();
+
+        EventTrigger.Entry entry = new EventTrigger.Entry();
+
+        entry.eventID = EventTriggerType.BeginDrag;
+        entry.callback.AddListener((data) => { OnDragStart((PointerEventData)data); });
+        triggers.triggers.Add(entry);
+
+        EventTrigger.Entry entry2 = new EventTrigger.Entry();
+
+        entry2.eventID = EventTriggerType.Drag;
+        entry2.callback.AddListener((data) => { Drag((PointerEventData)data); });
+        triggers.triggers.Add(entry2);
+
+
+        EventTrigger.Entry entry3 = new EventTrigger.Entry();
+
+        entry3.eventID = EventTriggerType.EndDrag;
+        entry3.callback.AddListener((data) => { OnDragEnd((PointerEventData)data); });
+        triggers.triggers.Add(entry3);
     }
 
-    public void SetFree()
-    {
-        StartCoroutine(Animate(gameObject, gameObject.transform.parent.gameObject, 2));
+    private void OnDragEnd(PointerEventData data) {
+        EqItem item = GetComponent<EqItem>();
+        if(item != null)
+            EqSystem.instance.SetSlotFree(item);
     }
 
-    IEnumerator Animate(GameObject objectToMove, GameObject target, float druation)
-    {
-        time = druation;
-        float speed = 7.0f / druation;
-        while (time > 0)
-        {
-            objectToMove.transform.Translate((target.transform.position - objectToMove.transform.position) * speed * Time.deltaTime, Space.World);
-            time -= Time.deltaTime;
-            yield return null;
-        }
+
+    private void Drag(PointerEventData data) {
+        transform.position = Input.mousePosition;
+    }
+
+
+    private void OnDragStart(PointerEventData data) {
+        EqItem item = GetComponent<EqItem>();
+        if(item != null)
+            item.canMove = false;
     }
 }
 
