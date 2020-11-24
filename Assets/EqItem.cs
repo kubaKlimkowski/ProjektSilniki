@@ -36,7 +36,7 @@ public class EqItem : MonoBehaviour {
     IEnumerator Anim() {
         triggers.enabled = false;
         //GetComponent<Image>().raycastTarget = false;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0);
         EqSystem.instance.PickUpObject(this);
 
 
