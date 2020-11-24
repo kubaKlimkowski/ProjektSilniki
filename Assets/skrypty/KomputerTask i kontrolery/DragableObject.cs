@@ -37,11 +37,10 @@ public class DragableObject : MonoBehaviour {
         if(item != null)
             EqSystem.instance.SetSlotFree(item);
         RaycastHit2D[] hits;
-        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         hits =  Physics2D.RaycastAll(Input.mousePosition, Input.mousePosition + Vector3.down, Mathf.Infinity);
         foreach(RaycastHit2D hit in hits)
         {
-            print(hit.collider.gameObject.name);
+           // print(hit.collider.gameObject.name);
             RequireSlotType obj = selectedObject.GetComponent<RequireSlotType>(); 
             RequireObjectType slot = hit.collider.gameObject.GetComponent<RequireObjectType>();
             if (slot != null)
