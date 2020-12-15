@@ -15,7 +15,7 @@ public class EqSlot : MonoBehaviour {
         isTaken = false;
 
         //heldObject.transform.SetParent(null); // czy ma być w canvasie czy nie(jeżeli w canvasie, można parenta ustawić jako root transform.SetParent(heldObject.transform.root);
-
+        
         heldObject = null;
     }
     public void Take(GameObject go) {
