@@ -7,7 +7,7 @@ public class Computer : MonoBehaviour
 {
     public Transform[] computerParts;
 
-    private void Update()
+   /* private void Update()
     {
         bool complite = true;
         foreach(Transform part in computerParts)
@@ -21,5 +21,5 @@ public class Computer : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-    }
+    }*/
 }
