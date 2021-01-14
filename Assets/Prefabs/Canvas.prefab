@@ -54,7 +54,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4638994777768258408}
-  - component: {fileID: 8580672324916040123}
   m_Layer: 5
   m_Name: Bags
   m_TagString: Untagged
@@ -84,18 +83,6 @@ RectTransform:
   m_AnchoredPosition: {x: -10, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8580672324916040123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144171060800730156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82e52a5669adbc24a9fea9da0f2a427d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &391263960173211162
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,8 +117,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106, y: -2}
-  m_SizeDelta: {x: 1363, y: 768.2}
+  m_AnchoredPosition: {x: -87, y: -0.000009656}
+  m_SizeDelta: {x: 1363, y: 815.8875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8499919892469285121
 CanvasRenderer:
@@ -272,6 +259,7 @@ GameObject:
   - component: {fileID: 7556605521945824402}
   - component: {fileID: 6169516425092301907}
   - component: {fileID: 5976552418294455954}
+  - component: {fileID: 3513383592389644083}
   m_Layer: 5
   m_Name: CanvasSwitcherButton right
   m_TagString: Untagged
@@ -295,9 +283,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 478, y: -13}
+  m_AnchoredPosition: {x: 478, y: -12.999989}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.49999997}
 --- !u!222 &7556605521945824402
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -377,29 +365,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6169516425092301907}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4478742820426886923}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 8513672468701332729}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3513383592389644083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409820165322475168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: Kitchen
 --- !u!1 &1016650570292091411
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,8 +701,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106, y: -2}
-  m_SizeDelta: {x: 1363, y: 768.2}
+  m_AnchoredPosition: {x: -49.2, y: 0.8}
+  m_SizeDelta: {x: 1405.6587, y: 816.4229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2360013706561787752
 CanvasRenderer:
@@ -911,7 +890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.3, y: -218.1}
+  m_AnchoredPosition: {x: -341, y: -244}
   m_SizeDelta: {x: 109.351746, y: 153.77274}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4028793462969935608
@@ -1389,7 +1368,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.49648434}
   m_AnchorMax: {x: 0.5, y: 0.49648434}
-  m_AnchoredPosition: {x: -296, y: -117}
+  m_AnchoredPosition: {x: -253, y: -108}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &924550220647900343
@@ -1626,8 +1605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.8, y: -0.000012398}
-  m_SizeDelta: {x: 1332.6199, y: 828.06036}
+  m_AnchoredPosition: {x: -74.8, y: -2.1}
+  m_SizeDelta: {x: 1366.2795, y: 823.85297}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7664289726690628466
 CanvasRenderer:
@@ -2022,6 +2001,7 @@ GameObject:
   - component: {fileID: 4646214568487647974}
   - component: {fileID: 5658057289757215256}
   - component: {fileID: 1151254793638734705}
+  - component: {fileID: 3832308969894572659}
   m_Layer: 5
   m_Name: CanvasSwitcherRight
   m_TagString: Untagged
@@ -2045,7 +2025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 483, y: -13}
+  m_AnchoredPosition: {x: 468, y: 2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4646214568487647974
@@ -2127,29 +2107,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5658057289757215256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8513672468701332729}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 6437726323147982420}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3832308969894572659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3449019689815130217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: Office
 --- !u!1 &3458448782568116087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,7 +2336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -624.9, y: -125.2}
+  m_AnchoredPosition: {x: -608, y: -129}
   m_SizeDelta: {x: 185.49335, y: 150.39345}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!222 &1420239013078811775
@@ -2457,7 +2428,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3635199748849142832
 GameObject:
@@ -2800,6 +2771,7 @@ GameObject:
   - component: {fileID: 9136641880692986273}
   - component: {fileID: 4321657388914763318}
   - component: {fileID: 2532168570124023994}
+  - component: {fileID: 4448707859481070303}
   m_Layer: 5
   m_Name: CanvasSwitcherButton left
   m_TagString: Untagged
@@ -2823,7 +2795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -741, y: -13}
+  m_AnchoredPosition: {x: -705, y: -0.000013351}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9136641880692986273
@@ -2905,29 +2877,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4321657388914763318}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6437726323147982420}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 8513672468701332729}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &4448707859481070303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749988395385604014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: MailRoom
 --- !u!1 &3755600433912152878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,6 +3037,7 @@ GameObject:
   - component: {fileID: 3832308970934542169}
   - component: {fileID: 3347532071003986688}
   - component: {fileID: 3832308969894572650}
+  - component: {fileID: 7951368290352570165}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3142,7 +3106,7 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 0.73
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3184,6 +3148,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82d6c8383cf0a844a91c500053a9a7b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7951368290352570165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832308970934542168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2613f54ded0eaa54b86a3eac17978850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3940953545792944240
@@ -3474,6 +3450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 155084202373770491}
+  - component: {fileID: 7447812277927610063}
   m_Layer: 5
   m_Name: Kitchen
   m_TagString: Untagged
@@ -3508,6 +3485,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7447812277927610063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478742820426886923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d299bc1ea9dbf44a8d9eab7878b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4518241784062234321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3520,6 +3509,7 @@ GameObject:
   - component: {fileID: 3169773375309390463}
   - component: {fileID: 8634387575479084404}
   - component: {fileID: 10789199451771801}
+  - component: {fileID: 3832308969894572656}
   m_Layer: 5
   m_Name: CanvasSwitcher
   m_TagString: Untagged
@@ -3625,29 +3615,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8634387575479084404}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4478742820426886923}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 8528218576931242682}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3832308969894572656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4518241784062234321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 
 --- !u!1 &4563595888884132634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3734,6 +3715,7 @@ GameObject:
   - component: {fileID: 2995675825227686122}
   - component: {fileID: 2378629202325001910}
   - component: {fileID: 1145303492135985875}
+  - component: {fileID: 3832308969894572657}
   m_Layer: 5
   m_Name: CanvasSwitcherLeft
   m_TagString: Untagged
@@ -3757,7 +3739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -752, y: -13}
+  m_AnchoredPosition: {x: -683, y: -0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2995675825227686122
@@ -3839,29 +3821,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2378629202325001910}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8513672468701332729}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 4478742820426886923}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3832308969894572657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4733099384350401136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: Office
 --- !u!1 &4798765988229502318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4267,6 +4240,7 @@ GameObject:
   - component: {fileID: 4651524095300615995}
   - component: {fileID: 8698901912577341734}
   - component: {fileID: 5748313206753499971}
+  - component: {fileID: 3832308969894572658}
   m_Layer: 5
   m_Name: CanvasSwitcherRight
   m_TagString: Untagged
@@ -4290,7 +4264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 479, y: -13}
+  m_AnchoredPosition: {x: 479, y: -2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4651524095300615995
@@ -4372,29 +4346,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8698901912577341734}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6437726323147982420}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 4478742820426886923}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3832308969894572658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5132376223338151513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: MailRoom
 --- !u!1 &5333030530746287638
 GameObject:
   m_ObjectHideFlags: 0
@@ -4544,8 +4509,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106, y: -2}
-  m_SizeDelta: {x: 1363, y: 768.2}
+  m_AnchoredPosition: {x: -47.1, y: -1.9}
+  m_SizeDelta: {x: 1417.6968, y: 822.89667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6311041015258301890
 CanvasRenderer:
@@ -4782,6 +4747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8317848431324058641}
+  - component: {fileID: 1106634354803880318}
   m_Layer: 5
   m_Name: Computer
   m_TagString: Untagged
@@ -4815,6 +4781,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1106634354803880318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5792573458717982286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d299bc1ea9dbf44a8d9eab7878b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5802441929152825867
 GameObject:
   m_ObjectHideFlags: 0
@@ -5058,6 +5036,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1823168992748839403}
+  - component: {fileID: 4582803690173210656}
   m_Layer: 5
   m_Name: MailRoom
   m_TagString: Untagged
@@ -5091,6 +5070,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4582803690173210656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6437726323147982420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d299bc1ea9dbf44a8d9eab7878b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6514586386330763199
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,8 +5333,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -871, y: -99.3}
-  m_SizeDelta: {x: 2913.7231, y: 986.87427}
+  m_AnchoredPosition: {x: -885.4, y: -97.9}
+  m_SizeDelta: {x: 2888.4688, y: 1013.7886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8906269041057342780
 CanvasRenderer:
@@ -5850,6 +5841,7 @@ GameObject:
   - component: {fileID: 1619351516176198731}
   - component: {fileID: 8954985918544486499}
   - component: {fileID: 1000644077938293759}
+  - component: {fileID: 3832308969894572660}
   m_Layer: 5
   m_Name: CanvasSwitcherLeft
   m_TagString: Untagged
@@ -5873,9 +5865,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -717, y: 2}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5000001, y: 0.5}
+  m_AnchoredPosition: {x: -698, y: -0}
+  m_SizeDelta: {x: 160, y: 29.999958}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1619351516176198731
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5955,29 +5947,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8954985918544486499}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4478742820426886923}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 6437726323147982420}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3832308969894572660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7523504736541225505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9ddadc187a3e4b8519cea051a0edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: Kuchnia
 --- !u!1 &7657463716994494716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,7 +5996,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -560, y: 4}
+  m_AnchoredPosition: {x: -517, y: 4}
   m_SizeDelta: {x: 92.291824, y: 20.262524}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &59095886499304019
@@ -6557,6 +6540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8472505909894004592}
+  - component: {fileID: 2942103373452144493}
   m_Layer: 5
   m_Name: Office
   m_TagString: Untagged
@@ -6590,6 +6574,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2942103373452144493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8513672468701332729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d299bc1ea9dbf44a8d9eab7878b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8518805066516249137
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,6 +6736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3472060292609778410}
+  - component: {fileID: 2790374672439935389}
   m_Layer: 5
   m_Name: Coffe
   m_TagString: Untagged
@@ -6771,6 +6768,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2790374672439935389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528218576931242682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d299bc1ea9dbf44a8d9eab7878b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8624031258290423479
 GameObject:
   m_ObjectHideFlags: 0
