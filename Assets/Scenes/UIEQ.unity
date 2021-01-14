@@ -482,6 +482,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main
       objectReference: {fileID: 0}
+    - target: {fileID: 3832308970934542170, guid: 3bed644be9cd729458f146c75bf252dd,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832308970934542170, guid: 3bed644be9cd729458f146c75bf252dd,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832308970934542170, guid: 3bed644be9cd729458f146c75bf252dd,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832308970934542170, guid: 3bed644be9cd729458f146c75bf252dd,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832308970934542172, guid: 3bed644be9cd729458f146c75bf252dd,
         type: 3}
       propertyPath: m_LocalPosition.x
