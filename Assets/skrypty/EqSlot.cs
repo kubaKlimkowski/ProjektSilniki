@@ -24,5 +24,6 @@ public class EqSlot : MonoBehaviour {
         heldObject = go;
         heldObject.transform.SetParent(this.transform);
         heldObject.transform.position = transform.position;
+        heldObject.transform.rotation = Quaternion.identity;
     }
 }
