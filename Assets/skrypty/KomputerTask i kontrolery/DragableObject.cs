@@ -6,9 +6,18 @@ using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(EventTrigger))]
 
+
+
  
 public class DragableObject : MonoBehaviour {
+
+  
+
     private GameObject selectedObject;
+
+    
+
+
     private void Start() {
         EventTrigger triggers = GetComponent<EventTrigger>();
 
@@ -47,8 +56,13 @@ public class DragableObject : MonoBehaviour {
             {
                 if(obj.requireSlotType == slot.requireObjectType)
                 {
-                    obj.transform.parent = slot.transform;
+                    obj.transform.SetParent(slot.gameObject.transform);
                     obj.transform.position = slot.transform.position;
+                    if(hit.collider.gameObject.name.Contains("Bag") || hit.collider.gameObject.name.Contains("Color"))
+                    {
+                        Destroy(transform.parent.gameObject);
+                    }
+                    
                 }
             }
         }
@@ -62,15 +76,19 @@ public class DragableObject : MonoBehaviour {
 
 
     private void OnDragStart(PointerEventData data) {
+
+       
+
         selectedObject = data.selectedObject;
        RaycastHit2D hit;
         EqItem item = GetComponent<EqItem>();
         if(item != null)
             item.canMove = false;
         hit = Physics2D.Raycast(Input.mousePosition, Input.mousePosition + Vector3.down, Mathf.Infinity);
-        if (hit.collider.gameObject.name.Contains("Item"))
+        if (hit.collider.gameObject.name.Contains("Item") || hit.collider.gameObject.name.Contains("Color"))
         {
             selectedObject = hit.collider.gameObject;
+            
         }
     }
 }

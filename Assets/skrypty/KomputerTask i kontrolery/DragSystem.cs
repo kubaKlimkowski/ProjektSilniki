@@ -5,7 +5,7 @@
 public class DragSystem : MonoBehaviour  {
     public static DragSystem Instance { get; private set; }
     GameObject currentDragObject;
-    GameObject currentDragParent;
+
     public Transform mainParent;
 
     private void Awake() {
