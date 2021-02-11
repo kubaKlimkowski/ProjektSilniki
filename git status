@@ -1,0 +1,288 @@
+[33mcommit a01b4a01fce745da8cc0a4bc1872f668fe38c340[m[33m ([m[1;36mHEAD -> [m[1;32mKuba[m[33m)[m
+Merge: 82bda3b 245ee95
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Sun Jan 17 12:20:31 2021 +0100
+
+    rrrr
+
+[33mcommit 82bda3b8d55824ccf9ab856670bffa41ef7e7655[m[33m ([m[1;31morigin/Kuba[m[33m)[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Thu Jan 14 12:15:07 2021 +0100
+
+    narzedzie
+
+[33mcommit 3d62f2c8df20e8d24f0b75610634235925f299c3[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Mon Jan 4 22:21:40 2021 +0100
+
+    final
+
+[33mcommit 245ee953274799383c456aab7e46d3f1fc3a7986[m[33m ([m[1;31morigin/MLopusiewicz[m[33m)[m
+Author: unknown <>
+Date:   Tue Dec 15 12:15:36 2020 +0100
+
+    layout
+
+[33mcommit e04e22fe10318ab1c625ef549c3b3532a919e446[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Mon Dec 14 21:25:16 2020 +0100
+
+    Oprawa Graficzna
+
+[33mcommit c85304e4f6e20477fd8b4cf4e4f316ff680cfffa[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Nov 24 13:06:00 2020 +0100
+
+    km
+
+[33mcommit a09a248a4ef3c6e1c463de36757685dbb4c66691[m
+Merge: 1c22fba 1c0310d
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Nov 24 13:02:05 2020 +0100
+
+    Merge remote-tracking branch 'origin/NowyGerry' into Kuba
+
+[33mcommit 1c22fba916e38859086d7552fc873b42fa3a933f[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Nov 24 10:51:55 2020 +0100
+
+    kuba
+
+[33mcommit 1c0310d9464de59dd175f749f8af0d8dcca10dda[m
+Author: GerryPL <Shedow59@gmail.com>
+Date:   Mon Nov 23 13:45:34 2020 +0100
+
+    SceneSwitcher
+
+[33mcommit 9a3d14df5c7b6e04819e8bda0ea2c12568185f81[m
+Merge: 67a06d1 5fa3470
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Mon Nov 23 13:36:39 2020 +0100
+
+    sss
+
+[33mcommit 67a06d1126126da9d72f93ff200bec5edc42d36b[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Mon Nov 23 12:03:50 2020 +0100
+
+    ee
+
+[33mcommit 5fa3470e61ed28d5a80788ab865b4276c840f03a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: unknown <>
+Date:   Tue Nov 17 12:08:33 2020 +0100
+
+    poprawiona wersja EQ
+
+[33mcommit 3c2908da34a59f1bc70c8ba044e5701049f3378b[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Nov 17 10:03:10 2020 +0100
+
+    samodzielne przyłączanie slotów do skryptu
+
+[33mcommit 792f6538bfeb17a80afab4a6fd01db8636bb51ca[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Nov 10 13:56:27 2020 +0100
+
+    zmiana
+
+[33mcommit 703b472cbacd19cbbdf538e55b2efdee9e7df1bf[m
+Author: unknown <>
+Date:   Tue Nov 3 12:02:53 2020 +0100
+
+    komentarze i błędy
+
+[33mcommit c1c9ee4b4f9ce1f68cc86bafc9e8db08397a1e3e[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Nov 3 11:02:38 2020 +0100
+
+    najnowsze
+
+[33mcommit 8076f5ca79995fd8a2f25a27f16f9c6f2397f5f4[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Mon Nov 2 13:13:39 2020 +0100
+
+    zadanie 2
+
+[33mcommit 5b09b2e74ad923e4c1b19ff70baca7497089ac97[m
+Merge: 6b02c48 214290b
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Sun Nov 1 14:05:08 2020 +0100
+
+    Merge branch 'MLopusiewicz' of https://github.com/kubaKlimkowski/ProjektSilniki into Kuba
+
+[33mcommit 214290bdbb7057818f5f75ca27524dc0cab4aac5[m
+Author: unknown <>
+Date:   Tue Oct 27 11:58:42 2020 +0100
+
+    animacja
+
+[33mcommit ac71616faeed124744e8dc47630c176f9a89d564[m
+Author: unknown <>
+Date:   Tue Oct 27 11:51:28 2020 +0100
+
+    nowy system EQ
+
+[33mcommit 6b02c489d4c937f2adf168d50729c48d60fa067d[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 27 11:19:39 2020 +0100
+
+    naprawione2
+
+[33mcommit 1f1129dc4ad035470045b8b8d54e6c7bcdad954d[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 27 11:11:40 2020 +0100
+
+    naprawione
+
+[33mcommit 7768ba95c81f506982a28ea948dd4a02860e930d[m
+Merge: 57080c0 a4f7183
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Tue Oct 27 11:08:43 2020 +0100
+
+    poprawa
+
+[33mcommit a4f7183a7aa935704ea0159304c64b49c144fc84[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 27 10:17:19 2020 +0100
+
+    zadanko
+
+[33mcommit a815404c6429bd9e16d539bf194281fcc02e6fe1[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Fri Oct 23 16:56:20 2020 +0200
+
+    coscos
+
+[33mcommit 57080c083ebcd3d6ca836e4b4f7e3d20a80ea2ab[m
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Fri Oct 23 16:55:07 2020 +0200
+
+    Lenka
+
+[33mcommit ef4308d852fb0ccc236af3101cb08160258bc94c[m
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Fri Oct 23 16:54:39 2020 +0200
+
+    LLenka
+
+[33mcommit 7f234e8a42723d07d5e1ec7ec9c8e960e2ad046f[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Fri Oct 23 16:47:35 2020 +0200
+
+    Zadanie wykonane
+
+[33mcommit c501bd8fd22550d9426707692a5b02d9bbfa8a80[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Fri Oct 23 15:46:56 2020 +0200
+
+    poprawki
+
+[33mcommit 45aa26ab03d77200ffb137424df650a02b4f9464[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Fri Oct 23 15:34:23 2020 +0200
+
+    knight
+
+[33mcommit 88adb0fcf875f3b6d4400a7e714541814881e07b[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Fri Oct 23 15:17:19 2020 +0200
+
+    Inventory
+
+[33mcommit ba7963dd845f10b2fd7e6eb3a7a461379d4c57fa[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Thu Oct 22 13:11:43 2020 +0200
+
+    Raycast i wskaźnik
+
+[33mcommit 313ae48b58cf004b3214cc12c5034912fec90339[m
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Wed Oct 21 19:32:13 2020 +0200
+
+    Lenka
+
+[33mcommit 7cad46c03207a9027b6f4e46743b8a935db1b8eb[m
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Wed Oct 21 17:45:28 2020 +0200
+
+    Lenka
+
+[33mcommit 65d54b1c6a32397d13b38e8fcbccda96d90205eb[m
+Merge: 991adfe 26d22f1
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Tue Oct 20 22:01:32 2020 +0200
+
+    Merge branch 'Kuba' of https://github.com/kubaKlimkowski/ProjektSilniki into Lenka
+
+[33mcommit 26d22f1928b3fbfded2dea78196a35601518d7f7[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 22:01:13 2020 +0200
+
+    poziom UI
+
+[33mcommit 991adfe4ed32caab6df8c056da3946f594cc3cf5[m
+Merge: 2fba21f 2534db3
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Tue Oct 20 21:59:08 2020 +0200
+
+    Merge branch 'Kuba' of https://github.com/kubaKlimkowski/ProjektSilniki into Lenka
+
+[33mcommit 58aba661c692443f8b66bc388a4ac86520c2bac7[m
+Merge: 2534db3 2fba21f
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 21:58:24 2020 +0200
+
+    Merge branch 'Lenka' of https://github.com/kubaKlimkowski/ProjektSilniki into Kuba
+
+[33mcommit 2fba21fab21c8ba315291cee9bd5653487282ca9[m
+Author: Lena Loustan <lululeica@yandex.com>
+Date:   Tue Oct 20 21:57:22 2020 +0200
+
+    kaczka prefabrykator
+
+[33mcommit 2534db33c3c4bc98f5e41da351996b9100da2156[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 21:46:50 2020 +0200
+
+    UI ekwipunku + itemek
+
+[33mcommit a1bbfb2be25a82a7801f402634b54102230ca58b[m
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 14:25:26 2020 +0200
+
+    Level z Assetami
+
+[33mcommit de2a3f4650eb7a79d551ddab4c85663c1a34162b[m
+Merge: d3551c4 83bf9de
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 14:22:50 2020 +0200
+
+    Merge branch 'Gerry' of https://github.com/kubaKlimkowski/ProjektSilniki into Kuba
+
+[33mcommit d3551c49c28c6292b11b73133b689690bd0f53c3[m
+Merge: 789c8db 1204a97
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 14:22:11 2020 +0200
+
+    Merge branch 'Tarka-Damian' of https://github.com/kubaKlimkowski/ProjektSilniki into Kuba
+
+[33mcommit 83bf9de56a6bff5a71703659edb827c02ad530e4[m[33m ([m[1;31morigin/Gerry[m[33m)[m
+Author: GerryPL <Shedow59@gmail.com>
+Date:   Tue Oct 20 14:06:53 2020 +0200
+
+    Prefab Gerrego
+
+[33mcommit 789c8db3e1565d3d6c0b68a2fa77cabe6e593ac4[m
+Merge: 398deff 0bb5a1d
+Author: kubaKlimkowski <kubaklim7@gmail.com>
+Date:   Tue Oct 20 14:01:16 2020 +0200
+
+    Merge branch 'Lenka' of https://github.com/kubaKlimkowski/ProjektSilniki into Kuba
+
+[33mcommit 1204a97951fee9def9017da8555f06c8ccf895af[m[33m ([m[1;31morigin/Tarka-Damian[m[33m)[m
+Author: Damian Tarka <nexdee121@gmail.com>
+Date:   Tue Oct 20 14:00:57 2020 +0200
+
+    jest
+
+[33mcommit 0bb5a1d36877

@@ -3,48 +3,54 @@ using UnityEngine;
 
 
 public class Tool : EditorWindow {
-
-    public Texture2D tex;
-    // string myString = "Name of Canvas";
-
+    
     int _selected = 0;
-
     string[] _rooms = new string[5] { "Office", "MailRoom", "Kitchen", "Computer", "Coffe" };
-
-
-    [MenuItem("Window/CanvasSwitching")]
-
+    string from;
+    string[] to;
+  
+    
+    [MenuItem("Window/CanvasTransition")]
     public static void ShowWindow() {
-        GetWindow<Tool>("CanvasSwitching");
+        GetWindow<Tool>("CanvasTransition");
 
     }
-
-
-
-
     private void OnGUI() {
         GUILayout.Label("Here you can see where you will go from the canvas.", EditorStyles.boldLabel);
 
         EditorGUI.BeginChangeCheck();
 
         this._selected = EditorGUILayout.Popup("Canvas", _selected, _rooms);
-        tex = (Texture2D)EditorGUILayout.ObjectField(tex, typeof(Texture2D));
-        if(EditorGUI.EndChangeCheck()) {
+
+
+        if (EditorGUI.EndChangeCheck()) {
             Debug.Log(_rooms[_selected]);
         }
 
-
-        GUI.DrawTexture(EditorGUILayout.GetControlRect(), tex, ScaleMode.ScaleAndCrop, true, 10.0F);
-        //GUI.Label(new Rect(15, 15, cpu.width, cpu.height), cpu);
-
-        //myString = EditorGUILayout.TextField("Canvas",myString);
-
-        if(GUILayout.Button("Check")) {
+        if (GUILayout.Button("Check")) {
             check();
         }
+
+        GUILayout.Label("From: " + from, EditorStyles.boldLabel);
+        for (int i = 0; i < to.Length; i++)
+        {
+            GUILayout.Label("To: " + to[i], EditorStyles.boldLabel);
+        }
+        
+        
+
     }
     void check() {
-        Debug.Log("dymy");
+        string room = _rooms[_selected];
+        TransitionData data = Resources.Load<TransitionData>(room);
+        to = new string[data.to.Count];
+        for(int i = 0; i < to.Length; i++)
+        {
+            to[i] = data.to[i];
+        }
+        from = data.from;
+       // Debug.Log(data.from);
     }
+    
 
 }

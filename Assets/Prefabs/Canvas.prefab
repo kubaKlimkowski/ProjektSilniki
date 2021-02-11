@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8693813489772677636}
   - component: {fileID: 8450936716320869764}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Equipment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 7505446471729434583}
   - component: {fileID: 6422039246058420018}
   - component: {fileID: 1726731816911645358}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 8962202126332861558}
   - component: {fileID: 319686596606924667}
   - component: {fileID: 8300704825322116275}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +941,7 @@ GameObject:
   - component: {fileID: 6857966832725479086}
   - component: {fileID: 7608203673595947436}
   - component: {fileID: 7183718317399471449}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 6620299846246573302}
   - component: {fileID: 4420862137732416587}
   - component: {fileID: 6018233994008870780}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1508,7 +1508,7 @@ GameObject:
   - component: {fileID: 8471308386606695708}
   - component: {fileID: 73740742624369418}
   - component: {fileID: 7308545887043010647}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,7 +1657,7 @@ GameObject:
   - component: {fileID: 4031049328646525794}
   - component: {fileID: 4847363000468814518}
   - component: {fileID: 5931016543973358519}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2001,7 +2001,7 @@ GameObject:
   - component: {fileID: 3444915992796274478}
   - component: {fileID: 1688135276763956914}
   - component: {fileID: 5306252031435122798}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2223,7 +2223,7 @@ GameObject:
   - component: {fileID: 2156498226725819775}
   - component: {fileID: 7247470794719487750}
   - component: {fileID: 685553761955251361}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2488,7 +2488,7 @@ GameObject:
   - component: {fileID: 6304161498655960926}
   - component: {fileID: 8582757050949130982}
   - component: {fileID: 5731423493445300797}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3347,7 +3347,7 @@ GameObject:
   - component: {fileID: 9157734486638880171}
   - component: {fileID: 6333857901713490735}
   - component: {fileID: 6361157186341712220}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4299,7 +4299,7 @@ GameObject:
   - component: {fileID: 7838093524286960484}
   - component: {fileID: 5988674071510214576}
   - component: {fileID: 7777562102517292876}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4692,7 +4692,7 @@ GameObject:
   - component: {fileID: 6400655533064677666}
   - component: {fileID: 4951386084502561836}
   - component: {fileID: 5553728476950041190}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4927,7 +4927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 332, y: 60}
+  m_AnchoredPosition: {x: 607, y: 60}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2730970508803625685
@@ -5493,7 +5493,7 @@ GameObject:
   - component: {fileID: 2824560317248483695}
   - component: {fileID: 8748804337220063079}
   - component: {fileID: 4048757046346515637}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6259,7 +6259,7 @@ GameObject:
   - component: {fileID: 2534015723169159967}
   - component: {fileID: 6811932972479315070}
   - component: {fileID: 8409365871858967646}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ slot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6350,7 +6350,7 @@ GameObject:
   - component: {fileID: 6128652321350411502}
   - component: {fileID: 3137822401763051933}
   - component: {fileID: 5092891398051387409}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EQ parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6468,7 +6468,7 @@ GameObject:
   - component: {fileID: 8867017964622249783}
   - component: {fileID: 493169290925872649}
   - component: {fileID: 8868565179420612633}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6964,7 +6964,7 @@ GameObject:
   - component: {fileID: 861287365858858177}
   - component: {fileID: 6509829199618305298}
   - component: {fileID: 798262068332353568}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class TransitionButton : MonoBehaviour {
 
-    [SerializeField]
+   [SerializeField]
     public string level;
 
     void Start() {
